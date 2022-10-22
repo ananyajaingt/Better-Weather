@@ -33,8 +33,8 @@ ContentType="csv"
 Include="days"
 
 
-print('')
-print(' - Requesting weather : ')
+#print('')
+#print(' - Requesting weather : ')
 
 #basic query including location
 ApiQuery=BaseURL + Location
@@ -62,8 +62,8 @@ ApiQuery+="&key="+ApiKey
 
 
 
-print(' - Running query URL: ', ApiQuery)
-print()
+#print(' - Running query URL: ', ApiQuery)
+#print()
 
 try:
     CSVBytes = urllib.request.urlopen(ApiQuery)
@@ -89,7 +89,7 @@ for Row in CSVText:
     if RowIndex == 0:
         FirstRow = Row
     else:
-        print('Weather in ', Row[0], ' on ', Row[1])
+        #print('Weather in ', Row[0], ' on ', Row[1])
         weatherDict[Row[1]] = []
 
         ColIndex = 0
