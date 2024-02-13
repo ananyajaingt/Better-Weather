@@ -1,7 +1,5 @@
 # Better-Weather
-HackGT 2022
-
-Your one stop platform to know how you should dress, what you should carry, and what to expect from the weather today!
+API that determines how you should dress, what you should carry, and what to expect from the weather today!
 You can check the weather on any day you want 2 weeks from now!
 
 For HackGT, our MVP is the Python Code and the elementary version of our website. 
